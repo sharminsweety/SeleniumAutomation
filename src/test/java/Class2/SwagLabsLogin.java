@@ -20,8 +20,9 @@ public class SwagLabsLogin {
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         Thread.sleep(2000);
 
-        driver.findElement(By.className("btn_action")).click();
+       // driver.findElement(By.className("btn_action")).click();
 
+        driver.findElement(By.name("submit"));
         Thread.sleep(3000);
 
 
