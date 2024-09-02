@@ -9,7 +9,26 @@ public class NavigateTest {
         driver.manage().window().maximize();
 
         Thread.sleep(2000);
+
+//        driver.navigate();
+
         WebDriver.Navigation navigate = driver.navigate();
-        navigate.
+        navigate.to("https://www.saucedemo.com/");
+        Thread.sleep(2000);
+
+        navigate.back();
+        Thread.sleep(2000);
+
+        navigate.forward();
+        Thread.sleep(2000);
+
+//        navigate.refresh();
+//        Thread.sleep(2000);
+
+
+        driver.quit();
+
+
+
     }
 }
