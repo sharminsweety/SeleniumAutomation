@@ -15,6 +15,8 @@ public class IframeTest {
 
 
 
+
+
         System.out.println("Frame Main  "+ driver.findElement(By.className("text-center")).getText());
         Thread.sleep(2000);
 
