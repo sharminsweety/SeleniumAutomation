@@ -13,6 +13,6 @@ public class AutomationSelenium {
         System.out.println(driver.getCurrentUrl());
 
         Thread.sleep(2000);
-        driver.quit();
+//        driver.quit;
     }
 }
